@@ -1,0 +1,2 @@
+# tindog-strat
+tindog-strat
