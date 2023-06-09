@@ -1,0 +1,145 @@
+#title {background-color: #ff4c68; 
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{font-family: 'Montserrat';
+font-size: 3rem;
+line-height: 1.5;
+color: white;}
+h3 {
+    font-family: 'Montserrat';
+}
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+
+.container-fluid { padding: 3% 15%; }
+
+/* Navigation Bar */
+.navbar-brand {color: rgb(255, 255, 255);
+    font-family: 'Ubuntu';
+font-size: 2.5rem;}
+.navbar {
+padding:0 0 4.5rem;
+}
+.nav-item {
+padding: 0 13px;
+}
+.nav-link
+{
+font-size: 1.2rem;
+font-family: 'Ubuntu';
+}
+
+/* Download Buttons */
+.download-button-1 { margin: -5% -5% -5% 5%; }
+.download-button-2 { margin: 0% 0% 0% 5%;}
+
+.img-fluid {
+    width: 20%;
+    height: auto;
+    transform: rotate(25deg);
+position: absolute;
+right: 20%;
+}
+/* features section */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box {
+ text-align: center;
+}
+
+
+#testimonials {
+text-align: center;
+font-family:'Montserrat';
+background-color: #ff4c68;
+color: #ffffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img {
+    width: 8%;
+    height: 8%;
+    margin: 20px 20px 25px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#pricing {
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 3%;
+    font-family:'Montserrat';
+    margin-bottom: 200px;
+}
+#cta {
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 220px;
+    font-family:'Montserrat';
+background-color: #ff4c68;
+}
+#footer {
+    text-align: center;
+    padding-bottom: 3%;
+    font-family:'Montserrat';
+    background-color:#ff4c68
+
+}
+
+#h2-pricing {
+    font-size: 300%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.h3-pricing {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.available-2 {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: -15px;
+    background-color:#ff4c68 ;
+}
+.p-footer {
+    color: black;
+    margin-top: -40px;
+    background-color:#ff4c68
+}
+
+
+@media (max-width: 1028px)
+
+{
+
+#title {
+    text-align: center;
+}
+
+    .img-fluid {
+        position: static;
+        transform: rotate(0);
+    }
+}

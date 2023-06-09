@@ -1,2 +1,1 @@
-# tindog-strat
-tindog-strat
+TinDog Starting Files
